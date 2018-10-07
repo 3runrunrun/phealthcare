@@ -29,13 +29,12 @@ const fastify = require('fastify')()
  * END OF - default router syntax from fastify one click heroku
  */
 
-fastify.get('/', (req, res)  => {
-  return {
-    message: 'hello HEROKU!'
-  }
-})
+// Declare a route
+fastify.get('/', async (request, reply) => {
+  return { hello: 'world' }
+});
 
 fastify.listen(process.env.PORT || 3000, err => {
   if (err) throw err
   console.log(`server listening on ${fastify.server.address().port}`)
-})
+});
