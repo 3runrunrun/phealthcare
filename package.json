@@ -1,0 +1,35 @@
+{
+  "name": "phealthcare",
+  "version": "0.1.0",
+  "description": "primary healthcare backend prototype application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "7.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3runrunrun/phealthcare.git"
+  },
+  "keywords": [
+    "phealthcare",
+    "fastify",
+    "healthcare",
+    "nodejs",
+    "javascript",
+    "health",
+    "care",
+    "health"
+  ],
+  "author": "fathir qisthi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/3runrunrun/phealthcare/issues"
+  },
+  "homepage": "https://github.com/3runrunrun/phealthcare#readme",
+  "dependencies": {
+    "fastify": "^0.27.0"
+  }
+}
