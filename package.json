@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/3runrunrun/phealthcare#readme",
   "dependencies": {
-    "fastify": "^0.27.0"
+    "fastify": "^0.38.0"
   }
 }
